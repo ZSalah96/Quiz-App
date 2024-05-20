@@ -11,10 +11,54 @@
             "answer": "Mars"
         },
         {
-            "question": "what is the biggest planet ?",
-            "options": ["Earth", "Mars", "Jupiter", "Saturn"],
-            "answer": "Jupiter"
+            "question": "What is the largest ocean on Earth?",
+            "options": ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"],
+            "answer": "Pacific Ocean"
+        },
+        {
+            "question": "Which element has the chemical symbol 'O'?",
+            "options": ["Oxygen", "Gold", "Silver", "Helium"],
+            "answer": "Oxygen"
+        },
+        {
+            "question": "Who wrote 'Romeo and Juliet'?",
+            "options": ["William Shakespeare", "Mark Twain", "Charles Dickens", "Jane Austen"],
+            "answer": "William Shakespeare"
+        },
+        {
+            "question": "What is the tallest mountain in the world?",
+            "options": ["K2", "Kangchenjunga", "Mount Everest", "Lhotse"],
+            "answer": "Mount Everest"
+        },
+        {
+            "question": "In which year did the Titanic sink?",
+            "options": ["1905", "1912", "1918", "1925"],
+            "answer": "1912"
+        },
+        {
+            "question": "Who painted the Mona Lisa?",
+            "options": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
+            "answer": "Leonardo da Vinci"
+        },
+        {
+            "question": "Which planet is closest to the sun?",
+            "options": ["Earth", "Mars", "Mercury", "Venus"],
+            "answer": "Mercury"
+        },
+        {
+            "question": "What is the hardest natural substance on Earth?",
+            "options": ["Gold", "Iron", "Diamond", "Silver"],
+            "answer": "Diamond"
+        },
+        {
+            "question": "What is the largest continent?",
+            "options": ["Africa", "Asia", "Europe", "Antarctica"],
+            "answer": "Asia"
+        },
+        {
+            "question": "Which country is known as the Land of the Rising Sun?",
+            "options": ["China", "Japan", "South Korea", "Thailand"],
+            "answer": "Japan"
         }
-              
     ]
 }

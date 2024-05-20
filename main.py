@@ -10,7 +10,7 @@ class Quiz:
         self.root.geometry("600x1000")
 
         # Load the quiz data from the JSON file
-        with open('json', 'r') as file:
+        with open('questions.json', 'r') as file:
             self.quiz_data = json.load(file)
         
         self.questions = self.quiz_data['questions']

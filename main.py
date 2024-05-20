@@ -1,5 +1,17 @@
 import tkinter as tk
 import json
+import os
+import sys
+
+def resource_path(relative_path):
+    """ Get absolute path to resource, works for dev and for PyInstaller """
+    try:
+        # PyInstaller creates a temp folder and stores path in _MEIPASS
+        base_path = sys._MEIPASS
+    except AttributeError:
+        base_path = os.path.abspath(".")
+
+    return os.path.join(base_path, relative_path)
 
 class Quiz:
     def __init__(self, root):
@@ -10,7 +22,8 @@ class Quiz:
         self.root.geometry("600x1000")
 
         # Load the quiz data from the JSON file
-        with open('questions.json', 'r') as file:
+        json_path = resource_path('questions.json')
+        with open(json_path, 'r') as file:
             self.quiz_data = json.load(file)
         
         self.questions = self.quiz_data['questions']
